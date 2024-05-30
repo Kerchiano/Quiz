@@ -11,11 +11,11 @@ const QuizItem = ({ quiz, removeQuiz }: IQuizItemProps) => {
       return;
     }
 
-    navigate(`/questions/${quiz.title}`);
+    navigate(`/quiz/questions/${quiz.title}`);
   };
 
   const editQuiz = () => {
-    navigate(`/edit-quiz/${quiz.title}`);
+    navigate(`/quiz/edit-quiz/${quiz.title}`);
   };
   return (
     <>

@@ -9,9 +9,9 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/questions/:quizTitle" element={<QuizQuestions />} />
-          <Route path="/main-page" element={<MainPage />} />
-          <Route path="/edit-quiz/:quizTitle" element={<EditQuizPage />} />
+          <Route path="quiz/questions/:quizTitle" element={<QuizQuestions />} />
+          <Route path="quiz/main-page" element={<MainPage />} />
+          <Route path="quiz/edit-quiz/:quizTitle" element={<EditQuizPage />} />
         </Routes>
       </Router>
     </>

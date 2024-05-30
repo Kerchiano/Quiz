@@ -16,7 +16,7 @@ const QuizQuestions = () => {
   const navigate = useNavigate();
 
   const mainPage = () => {
-    navigate(`/main-page`);
+    navigate(`/quiz/main-page`);
     localStorage.removeItem("score");
     localStorage.removeItem("currentQuestionIndex");
     localStorage.removeItem("timerSeconds");
