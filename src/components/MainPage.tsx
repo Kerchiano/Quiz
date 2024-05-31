@@ -7,7 +7,7 @@ import { IQuiz } from "../types";
 const MainPage = () => {
   const storedData: string | null = localStorage.getItem("storedData");
   let checkStoredData = storedData ? JSON.parse(storedData) : null;
-  if (checkStoredData[0] === undefined) {
+  if (checkStoredData === null || checkStoredData[0] === undefined) {
     localStorage.setItem("storedData", JSON.stringify(questionsJsonData));
     checkStoredData = storedData ? JSON.parse(storedData) : null;
   }
