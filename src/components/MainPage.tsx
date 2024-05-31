@@ -24,12 +24,12 @@ const MainPage = () => {
   };
   return (
     <>
-      <div className="flex flex-row-reverse justify-between">
-        <div className="flex-1">
+      <div className="flex flex-row-reverse flex-wrap justify-between w-full">
+        <div className="flex-1 xs:min-w-100">
           <h1>Quizzes</h1>
           <QuizList quizzes={quizzes} removeQuiz={removeQuiz} />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 xs:min-w-100">
           <AddQuizForm addQuiz={addQuiz} />
         </div>
       </div>

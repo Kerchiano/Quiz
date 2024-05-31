@@ -73,7 +73,7 @@ const EditQuizPage = () => {
   if (!quiz) return <div>Loading...</div>;
 
   return (
-    <div className="flex flex-col w-2/4 items-center justify-center m-auto">
+    <div className="flex flex-col w-2/4 below-md:w-full below-lg:w-4/5 items-center justify-center m-auto">
       <h1>Edit Quiz</h1>
       <div className="rounded-custom p-5 w-full">
         <input

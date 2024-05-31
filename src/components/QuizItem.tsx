@@ -21,7 +21,7 @@ const QuizItem = ({ quiz, removeQuiz }: IQuizItemProps) => {
     <>
       <li
         onClick={startQuiz}
-        className="h-14 flex pl-5 pr-5 cursor-pointer text-white items-center justify-between bg-slate-400 rounded-md w-2/3"
+        className="h-14 flex w-4/5 pl-5 pr-5 below-sm:w-full cursor-pointer text-white items-center justify-between bg-slate-400 rounded-md"
       >
         <span className="text-lg">{quiz.title}</span>
         <div className="flex gap-4">

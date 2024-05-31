@@ -88,7 +88,7 @@ const QuizQuestions = () => {
   return (
     <>
       {currentQuestionIndex !== questionsData.length && !quizCompleted ? (
-        <div className="flex flex-col items-start m-auto w-2/4 gap-5">
+        <div className="flex flex-col items-start m-auto w-2/4 below-md:w-4/5 gap-5">
           <h2>Quiz 1</h2>
           <div className="flex justify-between w-full">
             <h3>{`Question ${currentQuestionIndex + 1} of ${

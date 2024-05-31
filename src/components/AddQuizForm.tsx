@@ -59,7 +59,7 @@ const AddQuizForm = ({ addQuiz }: IAddQuize) => {
     <>
       <div className="flex flex-col items-center justify-center">
         <h1>Add Quiz</h1>
-        <div className="rounded-custom p-5 w-full">
+        <div className="rounded-custom p-5 below-sm:pl-0 below-sm:pr-0 w-full">
           <input
             className="text-center p-2 border border-black rounded-custom mb-2 w-full"
             type="text"
