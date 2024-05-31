@@ -25,11 +25,11 @@ const MainPage = () => {
   return (
     <>
       <div className="flex flex-row-reverse flex-wrap justify-between w-full">
-        <div className="flex-1 min-w-100 mt-10">
+        <div className="flex-1 sm:min-w-100 mt-10">
           <h1>Quizzes</h1>
           <QuizList quizzes={quizzes} removeQuiz={removeQuiz} />
         </div>
-        <div className="flex-1 min-w-100 mt-10">
+        <div className="flex-1 sm:min-w-100 mt-10">
           <AddQuizForm addQuiz={addQuiz} />
         </div>
       </div>
