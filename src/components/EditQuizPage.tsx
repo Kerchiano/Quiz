@@ -97,7 +97,7 @@ const EditQuizPage = () => {
                 Remove
               </button>
             </div>
-            <input
+            <input className="mb-2 p-2 border border-black rounded"
               type="text"
               placeholder="Question"
               value={q.question}
@@ -105,7 +105,7 @@ const EditQuizPage = () => {
                 handleQuestionChange(index, "question", e.target.value)
               }
             />
-            <input
+            <input className="mb-2 p-2 border border-black rounded"
               type="text"
               placeholder="Correct Answer"
               value={q.correctAnswer}
@@ -113,7 +113,7 @@ const EditQuizPage = () => {
                 handleQuestionChange(index, "correctAnswer", e.target.value)
               }
             />
-            <input
+            <input className="mb-2 p-2 border border-black rounded"
               type="text"
               placeholder="Incorrect Answers (comma separated)"
               value={q.incorrectAnswers.join(", ")}
