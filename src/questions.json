@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Quiz 1",
+    "title": "Quiz1",
     "questions": [
       {
         "correctAnswer": "The Moon",
@@ -36,7 +36,7 @@
   },
   {
     "id": 2,
-    "title": "Quiz 2",
+    "title": "Quiz2",
     "questions": [
       {
         "correctAnswer": "Green",
@@ -67,7 +67,7 @@
   },
   {
     "id": 3,
-    "title": "Quiz 3",
+    "title": "Quiz3",
     "questions": [
       {
         "correctAnswer": "Cincinnati Reds",
@@ -106,7 +106,7 @@
   },
   {
     "id": 4,
-    "title": "Quiz 4",
+    "title": "Quiz4",
     "questions": [
       {
         "correctAnswer": "George Harrison",
@@ -149,7 +149,7 @@
   },
   {
     "id": 5,
-    "title": "Quiz 5",
+    "title": "Quiz5",
     "questions": [
       {
         "correctAnswer": "Houston Astros",

@@ -7,7 +7,7 @@ import { IQuiz } from "../types";
 const MainPage = () => {
   const storedData: string | null = localStorage.getItem("storedData");
   let checkStoredData = storedData ? JSON.parse(storedData) : null;
-  if (checkStoredData === null) {
+  if (checkStoredData[0] === undefined) {
     localStorage.setItem("storedData", JSON.stringify(questionsJsonData));
     checkStoredData = storedData ? JSON.parse(storedData) : null;
   }
@@ -25,11 +25,11 @@ const MainPage = () => {
   return (
     <>
       <div className="flex flex-row-reverse flex-wrap justify-between w-full">
-        <div className="flex-1 xs:min-w-100">
+        <div className="flex-1 min-w-100 mt-10">
           <h1>Quizzes</h1>
           <QuizList quizzes={quizzes} removeQuiz={removeQuiz} />
         </div>
-        <div className="flex-1 xs:min-w-100">
+        <div className="flex-1 min-w-100 mt-10">
           <AddQuizForm addQuiz={addQuiz} />
         </div>
       </div>
