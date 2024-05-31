@@ -6,7 +6,7 @@ const QuizResults = ({ numOfQuestions, correctAnswers }: IQuizResults) => {
   const navigate = useNavigate();
 
   const mainPage = () => {
-    navigate(`/quiz/main-page`);
+    navigate(`/quiz/`);
     localStorage.removeItem("score");
     localStorage.removeItem("currentQuestionIndex");
     localStorage.removeItem("timerSeconds");

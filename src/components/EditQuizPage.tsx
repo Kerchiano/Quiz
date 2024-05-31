@@ -7,7 +7,7 @@ const EditQuizPage = () => {
   const [quiz, setQuiz] = useState<IQuiz | null>(null);
   const navigate = useNavigate();
   const mainPage = () => {
-    navigate(`/quiz/main-page`);
+    navigate(`/quiz/`);
   };
 
   useEffect(() => {
